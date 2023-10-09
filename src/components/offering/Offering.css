@@ -1,0 +1,275 @@
+.offerings{
+    display:flex;
+    margin-top:10em
+}
+
+.wideBoxes{
+    display:block;
+ 
+}
+
+.wBox{
+    display:flex;
+    width: 476px;
+    height: 130px;
+    flex-shrink: 0;
+    background: #1F1D2C;
+    margin:1em 0 0 0
+}
+
+.wBox > img{
+    width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin:2.5em 0 3em 3em
+}
+
+.wBox > h3{
+    color: #FFF;
+font-family: Raleway;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:3em 0 0 1.5em;
+}
+
+.textyy{
+    display:block
+}
+
+.textyy > h4{
+    color: #2A4AF4;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; 
+margin-right:23em
+}
+
+.textyy > h1{
+    color: #FFF;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; 
+margin:0 0 0 1em
+}
+
+.textyy > p{
+    color: #9B9B9B;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 168.75% */
+margin-left:3em
+}
+
+.limited1,.limited2{
+    display:flex
+}
+
+.limited1 > p{
+    color: #9694E7;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left:2.4em
+}
+
+.limited2 > p{
+    color: #9694E7;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left:2.4em
+}
+
+.button{
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin:3em
+}
+
+.offerings{
+    justify-content:center
+}
+
+
+@media (max-width:1450px){
+    .wBox{
+        width: 386px;
+        height: 100px;
+        margin:1em 0 0 0
+
+    }
+    .wideBoxes .wBox:first-child {
+        margin-top:1em
+      }
+    .wBox > img{
+        width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    margin:2em 0 3em 3em
+    }
+    
+    .wBox > h3{
+    margin:2.5em 0 0 1.5em;
+    }
+
+    .textyy > h4{
+    font-size: 18px;
+    line-height: 20px; 
+    margin-right:25em
+    }
+    
+    .textyy > h1{
+    font-size: 40px;
+    line-height: 60px; 
+    margin:0 0 0 1em
+    }
+    
+    .textyy > p{
+    font-size: 15px;
+    line-height: 24px; 
+    margin-left:3em
+    }
+
+    .limited1 > p{
+    font-size: 18px;
+    line-height: 15px;
+    margin-left:3em
+    }
+    
+    .limited2 > p{
+    font-size: 18px;
+    line-height: 15px;
+    margin-left:3em
+    }
+    
+    .button{
+    font-size: 13px;
+    line-height: normal;
+    margin:1em 0 0 4em;
+    width:140px;
+    }
+}
+
+
+
+
+@media (max-width:1200px){
+    .wBox{
+        width: 316px;
+        height: 90px;
+        margin:1em 0 0 0
+
+    }
+    .wideBoxes .wBox:first-child {
+        margin-top:1em
+      }
+    .wBox > img{
+        width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin:1.5em 0 3em 3em
+    }
+    
+    .wBox > h3{
+    margin:2em 0 0 1.5em;
+    }
+
+    .textyy > h4{
+    font-size: 15px;
+    line-height: 20px; 
+    margin-right:29em
+    }
+    
+    .textyy > h1{
+    font-size: 35px;
+    line-height: 55px; 
+    margin:0 0 0 1em
+    }
+    
+    .textyy > p{
+    font-size: 15px;
+    line-height: 24px; 
+    margin-left:2.3em
+    }
+
+    .limited1 > p{
+    font-size: 16px;
+    line-height: 15px;
+    margin-left:2em
+    }
+    
+    .limited2 > p{
+    font-size: 16px;
+    line-height: 15px;
+    margin-left:2em
+    }
+    
+    .button{
+    font-size: 13px;
+    line-height: normal;
+    margin:1em 0 0 2.5em;
+    width:140px;
+    }
+}
+
+@media(max-width:1000px){
+    .offerings{
+        display:block;
+               
+    }
+
+    .wideBoxes{
+        margin-top:-3em;
+        order:2
+    }
+    .wBox{
+        margin:1em auto 1em auto;
+
+    }
+   .textyy{
+    text-align:center;
+   }
+  .textyy > h4{
+    margin:3em 0 1em 0;
+  }
+  .textyy > h1{
+    font-size:25px;
+    margin:0
+  }
+  .textyy > p{
+    font-size:15px;
+    margin:0
+
+  }
+  .limited1{
+    margin-top:2em
+
+  }
+   .limited1,.limited2{
+   justify-content:center;
+   }
+   .limited1 p{
+    margin:1em
+
+   }
+   .limited2 p{
+    margin:1em
+
+   }
+   .button{
+    margin:1em auto 1em auto
+    
+   }
+
+}

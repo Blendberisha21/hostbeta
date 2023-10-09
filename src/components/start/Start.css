@@ -1,0 +1,238 @@
+.starti{
+    background-color:#1F1D2C;
+    margin-top:1em
+}
+
+.front{
+    display:flex
+}
+.theTexts{
+    display:block
+}
+
+.theTexts > h4{
+    color: #2A4AF4;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 0;
+padding:9em 5em 0 7em
+}
+
+.theTexts > h2{
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 116.667% */
+padding:0 5em 0 2.3em
+}
+
+.theTexts > p{
+    color: #9B9B9B;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 168.75% */
+padding:0 5em 0 9em
+}
+
+.buttoni{
+    display:flex
+}
+
+.buttoni > .fst{
+    display: flex;
+width: 186px;
+height: 78px;
+padding: 10px 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+margin-left:7em
+
+}
+
+.buttoni > .snd{
+    display: flex;
+width: 186px;
+height: 78px;
+padding: 10px 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: 2px solid #FFF;
+background:none;
+margin-left:1em
+}
+
+
+.imgBody{
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: #9694E7;
+    margin:10em 6em 6em 6em;
+}
+
+.imgBody > img{
+    width:30em;
+   margin:-4.5em 1em 0 0
+}
+
+@media (max-width:1500px){
+    .theTexts > h4{
+    font-size: 17px;
+    padding-left:5em
+    }
+    
+    .theTexts > h2{
+    font-size: 40px;
+    padding-left:2em
+
+    }
+    
+    .theTexts > p{
+    font-size: 16px;
+    padding-left:5em
+
+    }
+    .buttoni > .fst{
+margin-left:5em
+    }
+}
+
+@media (max-width:1300px){
+    .theTexts > h4{
+        font-size: 15px;
+        padding-left:5em
+        }
+        
+        .theTexts > h2{
+        font-size: 30px;
+        padding-left:2.5em
+    
+        }
+        
+        .theTexts > p{
+        font-size: 15px;
+        padding-left:5em
+    
+        }
+        .buttoni > .fst{
+    margin-left:5em
+        }
+        .imgBody{
+            width: 450px;
+            height: 450px;
+            flex-shrink: 0;
+            border-radius: 500px;
+            background: #9694E7;
+            margin:10em 6em 6em 6em;
+        }
+        .imgBody > img{
+            width:25em;
+           margin:-4.5em 1em 0 0
+        }
+}
+
+
+@media (max-width:1050px){
+    .theTexts > h4{
+        font-size: 14px;
+        padding-left:4em;
+        margin-top:5em
+        }
+        
+        .theTexts > h2{
+        font-size: 27px;
+        padding-left:2em;
+        line-height:27px;
+    
+        }
+        
+        .theTexts > p{
+        font-size: 15px;
+        padding-left:3.7em
+    
+        }
+        .buttoni > .fst{
+    margin-left:3em;
+    width: 156px;
+height: 68px;
+margin-left:3.5em
+        }
+        .buttoni > .snd{
+            width: 156px;
+        height: 68px;
+                }
+        .imgBody{
+            width: 420px;
+            height: 420px;
+            flex-shrink: 0;
+            border-radius: 500px;
+            background: #9694E7;
+            margin:10em 6em 6em 6em;
+        }
+        .imgBody > img{
+            width:23em;
+           margin:-4.5em 1em 0 0
+        }
+}
+
+
+@media (max-width:900px){
+    .front{
+        display:block
+    }
+.theTexts{
+    text-align:center;
+}
+
+.theTexts > h4{
+    font-size: 20px;
+    padding-top:3em;
+    }
+    
+    .theTexts > h2{
+    font-size: 30px;
+    padding:0;
+    line-height:40px;
+
+    }
+    
+    .theTexts > p{
+    font-size: 19px;
+    padding:0;
+
+    }
+    .buttoni{
+  justify-content:center;
+  margin:0
+    }
+
+    .buttoni > .fst{
+        margin:0;
+        width: 166px;
+    height: 78px;
+    margin:0;
+            }
+            .buttoni > .snd{
+                margin:0 0 0 1em;
+                width: 166px;
+            height: 78px;
+                    }
+
+                    .imgBody{
+                        justify-content:center;
+                        margin:8em auto 0 auto;
+                        width: 350px;
+                        height: 350px;
+                    }
+                    .imgBody > img{
+                        width:20em;
+                    }
+}

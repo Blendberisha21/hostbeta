@@ -1,0 +1,290 @@
+.pricing{
+    margin-top:2em
+}
+
+.pricing > h3{
+    color: #2A4AF4;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 5px ;
+text-align:center;
+}
+
+.pricing > h1{
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 116.667% */
+text-align:center;
+
+}
+
+.whiteBoxes{
+    display:flex;
+    justify-content:center;
+}
+
+.boxi{
+    width: 399px;
+    height: 788px;
+    flex-shrink: 0;
+    border-radius: 20px;
+background: #FFF;
+margin:1em
+}
+
+.boxi > h1{
+    color: #171420;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:0.5em
+}
+
+.boxi > h2{
+    color: #2A4AF4;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:0.6em
+
+}
+
+.boxi > p{
+    color: #5C5C5C;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:1em
+
+}
+
+.boxi > h4{
+    color: #171420;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:3em 0 0 1em
+
+}
+
+.boxi > h3{
+    color: #2A4AF4;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:0.8em
+
+}
+
+
+
+.boxi2{
+    width: 399px;
+    height: 788px;
+    flex-shrink: 0;
+    border-radius: 20px;
+background: #FFF;
+margin:1em
+}
+
+.boxi2 > h1{
+    color: #171420;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:0.5em
+}
+
+.boxi2 > h2{
+    color: #2A4AF4;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:0.6em
+
+}
+
+.boxi2 > p{
+    color: #5C5C5C;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:0.7em
+
+}
+
+.boxi2 > h4{
+    color: #171420;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin:1em 0 0 1em
+
+}
+
+.boxi2 > h3{
+    color: #2A4AF4;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin:0.8em
+
+}
+
+.blueButton{
+    width: 314px;
+height: 81px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #2A4AF4;
+margin:auto auto
+}
+
+@media (max-width:1400px){
+    .boxi{
+        width:300px;
+    }
+    .boxi > h1{
+    font-size: 32px;
+
+    }
+    
+    .boxi > h2{
+    font-size: 28px;  
+    }
+    
+    .boxi > p{
+    font-size: 19px; 
+    }
+    
+    .boxi > h4{
+    font-size: 20px;
+    }
+    
+    .boxi > h3{
+    font-size: 28px;
+    }
+
+    .boxi2{
+        width:300px;
+    }
+    .boxi2 > h1{
+        font-size: 32px;
+    
+        }
+        
+        .boxi2 > h2{
+        font-size: 28px;  
+        }
+        
+        .boxi2 > p{
+        font-size: 19px; 
+        }
+        
+        .boxi2 > h4{
+        font-size: 20px;
+        }
+        
+        .boxi2 > h3{
+        font-size: 28px;
+        }
+    .blueButton{
+        width: 214px;
+       margin-top:8em
+    }
+}
+
+@media(max-width:1000px){
+    .boxi{
+        width:250px;
+        height:600px
+    }
+    .boxi > h1{
+        font-size: 27px;
+    
+        }
+        
+        .boxi > h2{
+        font-size: 23px;  
+        }
+        
+        .boxi > p{
+        font-size: 17px; 
+        }
+        
+        .boxi > h4{
+        font-size: 18px;
+        }
+        
+        .boxi > h3{
+        font-size: 20px;
+        }
+    .boxi2{
+        width:250px;
+        height:600px
+    }
+    .boxi2 > h1{
+        font-size: 27px;
+    
+        }
+        
+        .boxi2 > h2{
+        font-size: 23px;  
+        }
+        
+        .boxi2 > p{
+        font-size: 17px; 
+        }
+        
+        .boxi2 > h4{
+        font-size: 18px;
+        }
+        
+        .boxi2 > h3{
+        font-size: 20px;
+        }
+    
+    .blueButton{
+        width: 150px;
+       margin-top:0em
+    }
+}
+
+
+@media (max-width:830px){
+    .whiteBoxes{
+        display:block
+    }
+    .pricing > h1{
+        font-size:30px
+    }
+    .boxi{
+        width:22em;
+        height:35em;
+        padding:1em;
+        margin:1.5em auto 0 auto;
+    }
+    .boxi2{
+        width:22em;
+        height:35em;
+        padding:1em;
+        margin:1.5em auto 0 auto;
+    }
+}
